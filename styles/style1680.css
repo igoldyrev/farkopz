@@ -1,0 +1,32 @@
+/* Разрешения экранов от 1680px */
+@media screen and (min-width:1680px) {
+    body { 
+	width: 60%;
+	margin: 5px auto 0 auto;
+	}
+/* Скрытые элементы */
+	.imgmobile {
+		display: none;
+	}
+	.index768 {
+		display: none;
+	}
+	.index320 {
+		display: none;
+	}
+#leftmenu { 
+		background: #ffffff; 
+		float: left; 
+		width: 200px;
+		padding-top: 10px;
+	}
+#content { 
+		background: #ffffff; 
+		margin: 0 0 0 200px; /* Отступ справа и слева */
+		padding-top: 10px;
+		padding-left: 10px;
+	}
+footer {
+		margin-bottom: 5px;
+	}
+}

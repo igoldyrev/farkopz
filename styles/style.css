@@ -1,0 +1,263 @@
+﻿caption {
+        font-size: medium;
+        font-weight: bold;
+        font-family: HelveticaRegular;
+        background: #82FA58;
+    }
+img {
+	max-width: 100%;
+	height: auto; 
+	width: auto\9; /* ie8 */
+	}
+.imgdesktop {
+	padding-top:0px;
+	padding-bottom:0px;
+	background-color:#ffffff;
+}
+img.imgdesktop {
+	padding: 0 10px;
+}
+.imgmobile {
+	padding-top:0px;
+	padding-bottom:0px;
+	background-color:#ffffff;
+}
+img.imgmobile {
+	padding: 10px 0;
+}
+textarea {
+	resize: none;
+	}
+/* font-family: "HelveticaRegular" */
+@font-face {
+    font-family: "HelveticaRegular";
+    src: url("../fonts/HelveticaRegular/HelveticaRegular.eot");  /* IE 5-8 */
+    src: url("../fonts/HelveticaRegular/HelveticaRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"), /* FF 3.6, Chrome 5, IE9 */
+    url("../fonts/HelveticaRegular/HelveticaRegular.ttf") format("truetype"),  /* Opera, Safari */
+	url("../fonts/HelveticaRegular/HelveticaNeue.svg#font") format("svg"); /* iOS */
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "HelveticaBold" */
+@font-face {
+    font-family: "HelveticaBold";
+    src: url("../fonts/HelveticaBold/HelveticaBold.eot");  /* IE 5-8 */
+    src: url("../fonts/HelveticaBold/HelveticaBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaBold/HelveticaBold.woff") format("woff"), /* FF 3.6, Chrome 5, IE9 */
+    url("../fonts/HelveticaBold/HelveticaBold.ttf") format("truetype"); /* Opera, Safari */
+	url("../fonts/HelveticaBold/HelveticaNeue-Bold.svg#font") format("svg"); /* iOS */
+    font-style: normal;
+    font-weight: bold;
+}
+/* font-family: "HelveticaMedium" */
+@font-face {
+    font-family: "HelveticaMedium";
+    src: url("../fonts/HelveticaMedium/HelveticaMedium.eot");  /* IE 5-8 */
+    src: url("../fonts/HelveticaMedium/HelveticaMedium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaMedium/HelveticaMedium.woff") format("woff"), /* FF 3.6, Chrome 5, IE9 */
+    url("../fonts/HelveticaMedium/HelveticaMedium.ttf") format("truetype"); /* Opera, Safari */
+	url("../fonts/HelveticaMedium/HelveticaNeue-Medium.svg#font") format("svg"); /* iOS */
+    font-style: normal;
+    font-weight: medium;
+}
+/* font-family: "HelveticaLight" */
+@font-face {
+    font-family: "HelveticaLight";
+    src: url("../fonts/HelveticaLight/HelveticaLight.eot");  /* IE 5-8 */
+    src: url("../fonts/HelveticaLight/HelveticaLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaLight/HelveticaLight.woff") format("woff"), /* FF 3.6, Chrome 5, IE9 */
+    url("../fonts/HelveticaLight/HelveticaLight.ttf") format("truetype"); /* Opera, Safari */
+	url("../fonts/HelveticaLight/HelveticaNeue-Light.svg#font") format("svg"); /* iOS */
+    font-style: normal;
+    font-weight: lighter;
+}
+/* font-family: "HelveticaThin" */
+@font-face {
+    font-family: "HelveticaThin";
+    src: url("../fonts/HelveticaThin/HelveticaThin.eot");  /* IE 5-8 */
+    src: url("../fonts/HelveticaThin/HelveticaThin.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaThin/HelveticaThin.woff") format("woff"), /* FF 3.6, Chrome 5, IE9 */
+    url("../fonts/HelveticaThin/HelveticaThin.ttf") format("truetype"); /* Opera, Safari */
+	url("../fonts/HelveticaLight/HelveticaNeue-Thin.svg#font") format("svg"); /* iOS */
+    font-style: normal;
+    font-weight: lighter;
+}
+h1 {
+	font-family: HelveticaBold;
+	font-size: 22px;
+	}
+h2 {
+	font-family: HelveticaBold;
+	font-size: 20px;
+	}
+h3 {
+	font-family: HelveticaBold;
+	font-size: 16px;
+	line-height: 1;
+	}
+p {
+	font-family: HelveticaRegular;
+	font-size: medium;
+	font-weight: 400;
+	line-height:1;
+	}
+li {
+	font-family: HelveticaRegular;
+	font-size: medium;
+	font-weight: 400;
+	line-height:1;
+	}
+a {
+	font-family: HelveticaMedium;
+	font-size: large;
+	font-weight: 400;
+	color: #000000;
+	}
+nav a {
+	font-size: medium;
+	font-family: HelveticaThin;
+	font-weight: 100;
+}
+/* Квадраты на главной странице */
+div.index {
+	border: 2px solid #D8D8D8;
+	margin: 5px 10px 5px 10px;
+	height: 80px;
+	width: 100px;
+	display: inline-block;
+}
+.index a {
+	text-decoration: none;
+}
+.index a:hover {
+	text-decoration: underline;
+}
+/* Каталог */
+table.catalog {
+	border: 2px solid #D8D8D8;
+	width: 100%;
+	border-collapse: collapse;
+
+}
+td.catalog {
+	border: 2px solid #D8D8D8;
+}
+.catalog a {
+	text-decoration: underline;
+}
+.brands {
+	width: 100%;
+}
+p.brands {
+	font-family: HelveticaLight;
+	font-size: medium;
+	font-weight: 100;
+	color: #848484;
+}
+.producttable {
+	font-family: HelveticaRegular;
+	padding: 10px;
+	}
+td.producttable {
+	border-bottom: 1px solid #013ADF;
+}
+td.producttablecaption {
+	font-family: HelveticaBold;
+	border-bottom: 1px solid #013ADF;
+	border-top: 1px solid #E6E6E6;
+	padding: 10px;
+}
+td.newslist {
+		font-size: medium;
+        font-family: HelveticaRegular;
+        font-weight: 400;
+	}
+table.newslist {
+		font-size: medium;
+        font-family: HelveticaRegular;
+        font-weight: 400;
+}
+/* Диалоги на странице выбора багажника */
+p.speechleft {
+	position: relative;
+	width: 97%;
+	height: auto;
+	text-align: left;
+	color: #fff;
+	font-size: large;
+	line-height: 1,5;
+	padding: 5px;
+	background-color: #0a2a0a;
+	border: 8px solid #0a2a0a;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: 2px 2px 4px #888;
+	-moz-box-shadow: 2px 2px 4px #888;
+	box-shadow: 2px 2px 4px #888;
+}
+p.speechleft:before { 
+	content: ' '; 
+	position: absolute; 
+	width: 0; 
+	height: 0; 
+	left: 3%; 
+	top: 100%; 
+	border: 25px solid; 
+	border-color: #0a2a0a transparent transparent #0a2a0a; 
+}
+p.speechleft:after { 
+	content: ' '; 
+	position: absolute; 
+	width: 0; 
+	height: 0; 
+	left: 5%; 
+	top: 100%; 
+	border: 15px solid; 
+	border-color: #0a2a0a transparent transparent #0a2a0a; 
+}
+p.speechright {
+	position: relative;
+	width: 97%;
+	height: auto;
+	text-align: left;
+	color: #000;
+	line-height: 1,5;
+	background-color: #82fa58;
+	border: 8px solid #82fa58;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: 2px 2px 4px #888;
+	-moz-box-shadow: 2px 2px 4px #888;
+	box-shadow: 2px 2px 4px #888;
+}
+p.speechright:before { 
+	content: ' '; 
+	position: absolute; 
+	width: 0; 
+	height: 0; 
+	left: 91%; 
+	top: 100%; 
+	border: 25px solid; 
+	border-color: #82fa58 #82fa58 transparent transparent; 
+}
+p.speechright:after { 
+	content: ' '; 
+	position: absolute; 
+	width: 0; 
+	height: 0; 
+	left: 93%; 
+	top: 100%; 
+	border: 15px solid; 
+	border-color: #82fa58 #82fa58 transparent transparent; 
+}
+#vk_comments, #vk_comments iframe {
+	width: 100% !important;
+	margin-top: 10px;
+}
+#vk_poll, #vk_poll iframe {
+	width: 100% !important;
+	margin-top: 10px;
+}
