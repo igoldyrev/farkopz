@@ -11,8 +11,7 @@ echo "<title>$titleconst Монтаж фаркопов</title>";
 <?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/leftmenu.html");?>
 </div>
 <div id="content">
-<h1 align="center">Монтаж фаркопов в Перми</h1>
-
+<h1>Монтаж фаркопов в Перми</h1>
 <p>Уважаемые клиенты! Заводская гарантия на автомобиль сохраняется при установке фаркопа и любого другого дополнительного оборудования, если установка выполняется в сертифицированном техцентре. Монтаж фаркопов, купленных в нашем магазине, производится в сертифицированном сервисном центре, по адресу Спешилова 80.</p>
 <table cellspacing="0" align="center">
 <tr><td class="producttablecaption" align="center">Оборудование</td><td class="producttablecaption" align="center">Цена</td></tr>

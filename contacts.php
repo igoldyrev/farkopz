@@ -19,15 +19,13 @@ echo "<title>$titleconst Контакты</title>";
 <p><b>Сб - Вс с 10:00 до 18:00</b></p>
 <p>Наш адрес: г.Пермь, Ул. Спешилова 102/29</p>
 <p align="center"><b>Мы находимся здесь:</b></p>
-
-<div class="imgdesktop">
-<img class="imgdesktop" src="/images/contacts/shop_autobagaz_poster.jpg" alt="autobagaz" width="230px">
-<img class="imgdesktop" src="/images/contacts/shop_autobagaz_back.jpg" alt="autobagaz" width="230px">
-<img class="imgdesktop" src="/images/logo_circle.jpg" alt="autobagaz" width="230px"></div>
-<div align="center" class="imgmobile">
-<img class="imgmobile" src="/images/contacts/shop_autobagaz_poster.jpg" alt="autobagaz" width="230px">
-<img class="imgmobile" src="/images/contacts/shop_autobagaz_back.jpg" alt="autobagaz" width="230px">
-<img class="imgmobile" src="/images/logo_circle.jpg" alt="autobagaz" width="230px"></div>
+<div class="img_div">
+<img class="img_main" src="/images/contacts/shop_autobagaz_poster.jpg" srcset="
+/images/contacts/shop_autobagaz_poster.jpg 2100w" sizes="(max-width: 2000px) 150px, 300px, 350px" alt="autobagaz">
+<img class="img_main" src="/images/contacts/shop_autobagaz_back.jpg" srcset="
+/images/contacts/shop_autobagaz_back.jpg 2100w" sizes="(max-width: 2000px) 150px, 300px, 350px" alt="autobagaz">
+<img class="img_main" src="/images/logo_circle.jpg" srcset="
+/images/logo_circle.jpg 200w" sizes="(max-width: 2000px) 150px, 300px, 350px" alt="autobagaz"></div>
 <div><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=dPv1vaWzXDrNMJs9tlKwl_50qOYIqktt&amp;width=100%&amp;height=250&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script></div>
 <p>Индивидуальный предприниматель: Зарубин Денис Юрьевич<br>ИНН 590850700022 ОГРНИП 316595800158377<br>
 р/с 40802810149770015620 в Пермском отделении №6984 ПАО Сбербанк России<br>
