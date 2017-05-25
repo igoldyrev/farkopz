@@ -5,9 +5,6 @@ body {
 	margin: 5px auto 0 auto;
 	}
 /* Скрытые элементы */
-	.imgmobile {
-		display: none;
-	}
 	.index320 {
 		display: none;
 	}

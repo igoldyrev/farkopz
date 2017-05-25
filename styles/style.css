@@ -1,33 +1,31 @@
-﻿caption {
-        font-size: medium;
-        font-weight: bold;
-        font-family: HelveticaRegular;
-        background: #82FA58;
-    }
+﻿html {
+	height: 100%;
+}
+/* Блок изображений */
 img {
 	max-width: 100%;
 	height: auto; 
-	width: auto\9; /* ie8 */
-	}
-.imgdesktop {
-	padding-top:0px;
-	padding-bottom:0px;
-	background-color:#ffffff;
+} 
+.img_div {
+	text-align: center;
 }
-img.imgdesktop {
-	padding: 0 10px;
+.img_main {
+	max-width: 100%;
+	height: auto;
+	padding: 10px;
 }
-.imgmobile {
-	padding-top:0px;
-	padding-bottom:0px;
-	background-color:#ffffff;
-}
-img.imgmobile {
-	padding: 10px 0;
+/* Объекты сайта */
+caption {
+    font-size: medium;
+    font-weight: bold;
+    font-family: HelveticaRegular;
+    background: #82FA58;
 }
 textarea {
 	resize: none;
 	}
+
+/* Шрифты */
 /* font-family: "HelveticaRegular" */
 @font-face {
     font-family: "HelveticaRegular";
@@ -37,7 +35,7 @@ textarea {
     url("../fonts/HelveticaRegular/HelveticaRegular.ttf") format("truetype"),  /* Opera, Safari */
 	url("../fonts/HelveticaRegular/HelveticaNeue.svg#font") format("svg"); /* iOS */
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
 }
 /* font-family: "HelveticaBold" */
 @font-face {
@@ -48,7 +46,7 @@ textarea {
     url("../fonts/HelveticaBold/HelveticaBold.ttf") format("truetype"); /* Opera, Safari */
 	url("../fonts/HelveticaBold/HelveticaNeue-Bold.svg#font") format("svg"); /* iOS */
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
 }
 /* font-family: "HelveticaMedium" */
 @font-face {
@@ -59,7 +57,7 @@ textarea {
     url("../fonts/HelveticaMedium/HelveticaMedium.ttf") format("truetype"); /* Opera, Safari */
 	url("../fonts/HelveticaMedium/HelveticaNeue-Medium.svg#font") format("svg"); /* iOS */
     font-style: normal;
-    font-weight: medium;
+    font-weight: 500;
 }
 /* font-family: "HelveticaLight" */
 @font-face {
@@ -70,7 +68,7 @@ textarea {
     url("../fonts/HelveticaLight/HelveticaLight.ttf") format("truetype"); /* Opera, Safari */
 	url("../fonts/HelveticaLight/HelveticaNeue-Light.svg#font") format("svg"); /* iOS */
     font-style: normal;
-    font-weight: lighter;
+    font-weight: 300;
 }
 /* font-family: "HelveticaThin" */
 @font-face {
@@ -81,43 +79,55 @@ textarea {
     url("../fonts/HelveticaThin/HelveticaThin.ttf") format("truetype"); /* Opera, Safari */
 	url("../fonts/HelveticaLight/HelveticaNeue-Thin.svg#font") format("svg"); /* iOS */
     font-style: normal;
-    font-weight: lighter;
+    font-weight: 200;
 }
+/* Текстовые блоки */
 h1 {
 	font-family: HelveticaBold;
 	font-size: 22px;
-	}
+	text-align: center;
+}
 h2 {
 	font-family: HelveticaBold;
 	font-size: 20px;
-	}
+	text-align: center;
+}
 h3 {
 	font-family: HelveticaBold;
 	font-size: 16px;
 	line-height: 1;
-	}
+	text-align: center;
+}
 p {
 	font-family: HelveticaRegular;
 	font-size: medium;
 	font-weight: 400;
 	line-height:1;
-	}
+}
 li {
 	font-family: HelveticaRegular;
 	font-size: medium;
 	font-weight: 400;
 	line-height:1;
-	}
+}
 a {
 	font-family: HelveticaMedium;
 	font-size: large;
 	font-weight: 400;
 	color: #000000;
-	}
+}
 nav a {
 	font-size: medium;
 	font-family: HelveticaThin;
 	font-weight: 100;
+}
+/* Зачеркнутый текст */
+.strike {
+	text-decoration: line-through;
+	color: red;
+}
+.text {
+	color: #000;
 }
 /* Квадраты на главной странице */
 div.index {
@@ -138,7 +148,6 @@ table.catalog {
 	border: 2px solid #D8D8D8;
 	width: 100%;
 	border-collapse: collapse;
-
 }
 td.catalog {
 	border: 2px solid #D8D8D8;
@@ -158,7 +167,7 @@ p.brands {
 .producttable {
 	font-family: HelveticaRegular;
 	padding: 10px;
-	}
+}
 td.producttable {
 	border-bottom: 1px solid #013ADF;
 }
@@ -169,14 +178,14 @@ td.producttablecaption {
 	padding: 10px;
 }
 td.newslist {
-		font-size: medium;
-        font-family: HelveticaRegular;
-        font-weight: 400;
-	}
+	font-size: medium;
+    font-family: HelveticaRegular;
+    font-weight: 400;
+}
 table.newslist {
-		font-size: medium;
-        font-family: HelveticaRegular;
-        font-weight: 400;
+	font-size: medium;
+    font-family: HelveticaRegular;
+    font-weight: 400;
 }
 /* Диалоги на странице выбора багажника */
 p.speechleft {
