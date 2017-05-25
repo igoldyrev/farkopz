@@ -23,9 +23,10 @@ echo "<title>$titleconst Горячее предложение от магази
 	<li>Варианты цветов: Черный, серый, белый</li>
 </ol>
 <p><b>Цена 9000 рублей</b></p>
-<p>Боксов в наличии 4 штуки</p>
-<div align="center">
-<img src="/images/news/030517/akcia.jpg" alt="акция" width="300px">
-</div></div>
+<p>Боксов в наличии <span class="strike"><span class="text">4 штуки</span></span> 1 штука.</p>
+<div class="img_div">
+<img class="img_main" src="/images/news/030517/akcia.jpg" srcset="
+/images/news/030517/akcia.jpg 300w" sizes="(max-width: 2000px) 150px, 300px, 350px" alt="Акция">
+</div>
 <?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/footer.html");?>
 <?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/counters.html");?>
