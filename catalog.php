@@ -406,10 +406,10 @@ $model = $_GET['model'];
 
     if (!isset($farkop)) {
 		require('templates/main.php');
-    } elseif ($farkop == 'Audi') {
+    } if ($farkop == 'Audi') {
 		require('templates/model.php');
-	}elseif ($farkop == 'Audi' AND $model == 'A3')  {
-		echo 'hshsgv';
+	}if (in_array($model, array('A1', 'A2', 'A3', 'A4')))   {
+		require('templates/model1.php');
     }
 	
 
