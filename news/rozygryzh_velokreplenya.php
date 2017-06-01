@@ -11,8 +11,8 @@ echo "<title>$titleconst Розыгрыш велокрепления от autoba
 <?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/leftmenu.html");?>
 </div>
 <div id="content">
-<h1 align="center">Розыгрыш велокрепления от autobagaz.ru</h1>
-<h3 align="center">Дорогие Друзья!</h3> 
+<h1>Розыгрыш велокрепления от autobagaz.ru</h1>
+<h3>Дорогие Друзья!</h3> 
 <p>Мы обьявляем конкурс, в котором разыграем крепление для перевозки велосипеда на крышу!</p>
 <p align="center"><b>Условия простые!</b></p> 
 <ol>

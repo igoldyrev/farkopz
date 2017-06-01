@@ -11,7 +11,7 @@ echo "<title>$titleconst Поступления автобоксов Vetlan</tit
 <?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/leftmenu.html");?>
 </div>
 <div id="content">
-<h1 align="center">Поступления автобоксов Vetlan</h1>
+<h1>Поступления автобоксов Vetlan</h1>
 <p>В нашем магазине поступление автобоксов Vetlan, серии 400М, 430М и 530М. Подробнее об их характеристиках и ценах можно узнать на <a href ="/vetlan.php" target="_blank">специальной</a> странице.</p> 
 <p>Заказать боксы можно через специальную <a href ="/zayavka.php" target="_blank">форму</a> или позвонить по телефону.
 <div align="center">
