@@ -11,15 +11,17 @@ echo "<title>$titleconst Новинка! Рейлинги на X-Ray!</title>";
 <?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/leftmenu.html");?>
 </div>
 <div id="content">
-<h1 align="center">Новинка! Рейлинги на X-Ray!</h1>
+<h1>Новинка! Рейлинги на X-Ray!</h1>
 <p>Рейлинги предназначены для автомобиля LADA XRAY (Лада Икс Рей). БЕЗ СВЕРЛЕНИЯ КРЫШИ!</p>
 <p>Оригинальный дизайн, гармонично дополняющий облик автомобиля.</p> 
 <p>Материалы и комплектующие высокого качества – упрочненный алюминиевый профиль с защитно-декоративным анодным покрытием, и АБС - пластик с защитным слоем, предотвращающим выгорание и обесцвечивание.</p>
-<div class="imgdesktop" align="center">
-<img class="imgdesktop" src="/images/news/260117/xray_1.jpg" alt="x-ray" width="300px"><img class="imgdesktop" src="/images/news/260117/xray_2.jpg" alt="x-ray" width="300px"><img style="padding-top: 10px" class="imgdesktop" src="/images/news/260117/xray_3.jpg" alt="x-ray" width="300px">
-</div>
-<div class="imgmobile" align="center">
-<img class="imgmobile" src="/images/news/260117/xray_1.jpg" alt="x-ray" width="300px"><img class="imgmobile" src="/images/news/260117/xray_2.jpg" alt="x-ray" width="300px"><img style="padding-top: 10px" class="imgmobile" src="/images/news/260117/xray_3.jpg" alt="x-ray" width="300px">
+<div class="img_div">
+<img class="img_main" src="/images/news/260117/xray_1.jpg" srcset="
+/images/news/260117/xray_1.jpg 350w" sizes="(max-width: 2000px) 150px, 300px, 350px" alt="x-ray">
+<img class="img_main" src="/images/news/260117/xray_2.jpg" srcset="
+/images/news/260117/xray_2.jpg 350w" sizes="(max-width: 2000px) 150px, 300px, 350px" alt="x-ray">
+<img class="img_main" src="/images/news/260117/xray_3.jpg" srcset="
+/images/news/260117/xray_3.jpg 350w" sizes="(max-width: 2000px) 150px, 300px, 350px" alt="x-ray">
 </div>
 <!-- Put this div tag to the place, where the Comments block will be -->
 <div id="vk_comments"></div>
