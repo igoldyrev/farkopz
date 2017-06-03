@@ -132,8 +132,8 @@ nav a {
 /* Квадраты на главной странице */
 div.index {
 	border: 2px solid #D8D8D8;
-	margin: 5px 10px 5px 10px;
-	height: 80px;
+	margin: 2px 5px 2px 5px;
+	height: 90px;
 	width: 100px;
 	display: inline-block;
 }
