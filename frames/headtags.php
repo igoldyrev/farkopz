@@ -13,8 +13,8 @@
 <meta property="business:contact_data:street_address" content="Ул. Спешилова 102/29"/>
 <meta property="business:contact_data:locality" content="Пермь"/>
 <meta property="business:contact_data:email" content="autobagaz@yandex.ru"/>
-<meta property="business:contact_data:website" content="http://autobagaz.ru"/>
-<meta property="og:url" content="http://www.autobagaz.ru"/>
+<meta property="business:contact_data:website" content="https://farkopz.ru"/>
+<meta property="og:url" content="https://www.farkopz.ru"/>
 <meta property="og:site_name" content="Автобагаж"/>
   
 <!-- Иконка -->
@@ -34,27 +34,4 @@
 <link rel="stylesheet" href="/styles/stylemenu.css">
 <link rel="stylesheet" href="/styles/leftmenu.css">
 <link rel="stylesheet" href="/styles/slider.css">
-<link rel="stylesheet" href="/styles/form.css">
-
-<!-- Scripts -->
-<!-- Put this script tag to the <head> of your page -->
-<script type="text/javascript" src="//vk.com/js/api/openapi.js?139"></script>
-<script type="text/javascript">
-  VK.init({apiId: 5866168, onlyWidgets: true});
-</script>
-<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script src="/scripts/nav-menu.js"></script>  
-
-<!-- Fancybox -->
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-<script type="text/javascript" src="/fancybox/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="/fancybox/jquery.fancybox-1.2.1.pack.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-	$("a.pic").fancybox({"Width":520,"Height":400});
-	$("a.gallery").fancybox();
-	$("a.video").fancybox({"frameWidth":520,"frameHeight":400});
-	$("a.content").fancybox({frameWidth:600,"frameHeight":300});
-});
-</script>  
+<link rel="stylesheet" href="/styles/form.css">  
