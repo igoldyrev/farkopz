@@ -5,9 +5,6 @@
 		margin: 0 auto;
 	}
 /* Скрытые элементы */
-	#leftmenu {
-		display: none;
-	}
 	.index768 {
 		display: none;
 	}

@@ -11,15 +11,9 @@
 	.index320 {
 		display: none;
 	}
-#leftmenu { 
-		background: #ffffff; 
-		float: left; 
-		width: 200px;
-		padding-top: 10px;
-	}
 #content { 
 		background: #ffffff; 
-		margin: 0 0 0 200px; /* Отступ справа и слева */
+		margin: 0 0 0 0px; /* Отступ справа и слева */
 		padding-top: 10px;
 		padding-left: 10px;
 	}
