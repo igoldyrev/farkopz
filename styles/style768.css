@@ -11,16 +11,8 @@ body {
 	.index1680 {
 		display: none;
 	}
-#leftmenu { 
-		background: #ffffff; 
-		float: left; 
-		width: 200px;
-		margin-top: 0px;
-		padding-top: 10px;
-	}
 #content { 
-		background: #ffffff; 
-		margin: 0 0 0 200px; /* Отступ справа и слева */
+		margin: 0 0 0 0; /* Отступ справа и слева */
 		padding-top: 10px;
 		padding-left: 10px;
 	}
