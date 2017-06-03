@@ -26,15 +26,16 @@ header {
 	text-decoration: none;
 	line-height: 20px;
 }
-.headred {
-       color: #DF0101;
+.headlabel {
+       color: #000;
+	   font-weight: 500;
 	   margin-bottom: 10px;
    }
-p.headred {
+p.headlabel {
 		font-size: x-large;
 		font-family: HelveticaMedium;
 	}
-note.headred {
+note.headlabel {
 		font-size: small;
 		font-family: HelveticaMedium;
 	}
