@@ -7,11 +7,8 @@ echo "<title>$titleconst Добро пожаловать!</title>";
 </head>
 <body>
 <?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/header.html");?>
-<div id="leftmenu">
-<?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/leftmenu.html");?>
-</div>
 <div id="content">
-<?php include ($_SERVER["DOCUMENT_ROOT"]."/news/newslist.php");
+<?php
 $auto = [
 	[
 	'id' => 1,
