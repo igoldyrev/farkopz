@@ -43,7 +43,6 @@
   padding: 5px 0;
 }
 
-
 .better-placeholder__input_call {
   padding: 16px 10px 4px 10px;
   width: 440px;
@@ -65,4 +64,16 @@
 .input__button_call {
   height: 50px;
   font-size: 18px;
+}
+
+@media screen and (max-width: 480px) {
+	.modal {
+		width: 100%;
+		height: 350px;
+		left: 1%;
+		margin-left: -10px;
+	}
+	.better-placeholder__input_call {
+		width: 400px;
+	}
 }
