@@ -36,3 +36,7 @@
 <link rel="stylesheet" href="/styles/slider.css">
 <link rel="stylesheet" href="/styles/form.css">  
 <link rel="stylesheet" href="/styles/modalcall.css">  
+
+<!-- Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="/scripts/nav-menu.js"></script>  
