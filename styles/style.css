@@ -121,6 +121,13 @@ nav a {
 	font-family: HelveticaThin;
 	font-weight: 100;
 }
+.modal__link {
+	font-family: HelveticaRegular;
+	font-size: x-large;
+	font-weight: 400;
+	line-height:1;
+	color: #FF0000;
+}
 /* Зачеркнутый текст */
 .strike {
 	text-decoration: line-through;
