@@ -65,7 +65,7 @@ nav a#pull {
 	position: -ms-sticky;
     position: -o-sticky;
 	top: 3;
-	z-index: 100;
+	z-index: 2;
 }
 
 @media only screen and (min-width : 769px) {
