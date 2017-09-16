@@ -35,6 +35,7 @@
 <textarea name="text" class="better-placeholder__input" pattern="^[A-Za-zА-Яа-яЁё0-9\s]+$" placeholder="Введите текст заявки"></textarea>
   <label for="text" class="better-placeholder__label">Введите текст заявки</label>
 </div><br>
+<?php include ($_SERVER["DOCUMENT_ROOT"]."/frames/captcha_frame.php"); ?>
 <div align="center">
 <input class="input__button" type="submit" value="Оставить заказ">
 </div>
