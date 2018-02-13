@@ -1,6 +1,5 @@
-<?php $titleconst = "Farkopz.ru - купить фаркопы заказ и установка фаркопов -";?>
-<html>
-<head>
+<?php session_start(); ?>
+
 <!-- meta-tags -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -14,9 +13,9 @@
 <meta property="business:contact_data:locality" content="Пермь"/>
 <meta property="business:contact_data:email" content="autobagaz@yandex.ru"/>
 <meta property="business:contact_data:website" content="https://farkopz.ru"/>
-<meta property="og:url" content="https://www.farkopz.ru"/>
+<meta property="og:url" content="https://farkopz.ru"/>
 <meta property="og:site_name" content="Автобагаж"/>
-  
+
 <!-- Иконка -->
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
