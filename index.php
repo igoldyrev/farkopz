@@ -4,7 +4,7 @@ include ($_SERVER["DOCUMENT_ROOT"]."/frames/keywords.php");
 	echo "<meta name='description' content='"; echo $keywords[0][description]; echo "'/>";
 	echo "<meta name='keywords' content='"; echo $keywords[0][keywords]; echo "'/>";
 	
-include ($_SERVER["DOCUMENT_ROOT"]."/frames/header.html");?>
+include ($_SERVER["DOCUMENT_ROOT"]."/src/html.blocks/header.html");?>
 
 <div id="content">
 <?php
