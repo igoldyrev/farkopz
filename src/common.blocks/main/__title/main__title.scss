@@ -1,0 +1,12 @@
+.main__title {
+  font: {
+    family: $font;
+    size: 72px;
+    weight: 700;
+  }
+  color: inherit;
+  line-height: 80px;
+  text-transform: uppercase;
+
+  margin-bottom: 60px;
+}
