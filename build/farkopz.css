@@ -596,17 +596,13 @@ body {
     transition: 0.5s ease-in-out; }
 
 .main {
-  height: 80vh;
   background: url(/src/common.blocks/main/img/8.jpg) no-repeat right;
   background-size: 45%; }
 
 .main__inner {
   width: 1220px;
-  height: 100%;
   margin: 0 auto;
-  padding: 100px 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+  padding: 100px 0; }
 
 .main__title {
   font-family: "Roboto", Tahoma, sans-serif;
@@ -650,16 +646,12 @@ body {
   text-align: center; }
 
 .montazh {
-  height: 80vh;
   background-color: #F2F2F2; }
 
 .montazh__inner {
   width: 1220px;
-  height: 100%;
   margin: 0 auto;
-  padding: 100px 0 65px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+  padding: 100px 0; }
 
 .montazh__item {
   display: -webkit-box;
@@ -672,10 +664,10 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 70%;
-  width: 30%;
+  height: 400px;
+  width: 350px;
   border-right: 1px solid #d9d9d9;
-  padding-right: 25px; }
+  padding-right: 30px; }
   .montazh__item:last-child {
     border-right: none; }
 
@@ -696,3 +688,7 @@ body {
   font-weight: 400;
   color: inherit;
   line-height: 24px; }
+
+.form-section {
+  height: 80vh;
+  background-color: #acecac; }
