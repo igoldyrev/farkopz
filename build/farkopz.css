@@ -319,6 +319,15 @@ body {
   width: 70%;
   margin: 0 auto; }
 
+.form__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%; }
+
 @media only screen and (max-width: 767px) {
   .form__container {
     width: 90%; } }
@@ -334,6 +343,10 @@ body {
 
 .form__input:placeholder-shown + .form__label--shown {
   display: none; }
+
+.form__input {
+  width: 300px;
+  border-radius: 15px; }
 
 .form__input--call {
   width: 440px; }
@@ -690,5 +703,13 @@ body {
   line-height: 24px; }
 
 .form-section {
-  height: 80vh;
   background-color: #acecac; }
+
+.form-section__inner {
+  width: 1220px;
+  margin: 0 auto;
+  padding: 100px 0; }
+
+.form-section__title {
+  width: 700px;
+  margin: 0 auto 40px; }
