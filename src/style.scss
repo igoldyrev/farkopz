@@ -113,3 +113,11 @@
 @import "common.blocks/main/__title/main__title";
 @import "common.blocks/main/__subtitle/main__subtitle";
 @import "common.blocks/main/__link/main__link";
+@import "common.blocks/main/__link/_montazh/main__link_montazh";
+
+//Montazh block
+@import "common.blocks/montazh/montazh";
+@import "common.blocks/montazh/__inner/montazh__inner";
+@import "common.blocks/montazh/__item/montazh__item";
+@import "common.blocks/montazh/__item/_wrap/montazh__item_wrap";
+@import "common.blocks/montazh/__price/montazh__price";
