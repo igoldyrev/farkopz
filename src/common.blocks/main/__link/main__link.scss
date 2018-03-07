@@ -1,0 +1,21 @@
+.main__link {
+  display: inline-block;
+
+  font: {
+    family: $font;
+    size: 18px;
+    weight: 400;
+  }
+  color: #FFFFFF;
+  padding: 10px;
+
+  border: 2px solid $subcolor;
+  border-radius: 15px;
+  background-color: $subcolor;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #0B610B;
+    transition: 0.5s ease-in-out;
+  }
+}

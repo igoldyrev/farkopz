@@ -597,15 +597,14 @@ body {
 
 .main {
   height: 80vh;
-  background: url(/src/common.blocks/main/img/7.jpg) no-repeat 50%;
-  background-size: contain;
-  opacity: 0.5; }
+  background: url(/src/common.blocks/main/img/8.jpg) no-repeat right;
+  background-size: 45%; }
 
 .main__inner {
   width: 1220px;
   height: 100%;
   margin: 0 auto;
-  padding: 100px 40px;
+  padding: 100px 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
@@ -616,11 +615,31 @@ body {
   color: inherit;
   line-height: 80px;
   text-transform: uppercase;
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+  width: 800px; }
 
 .main__subtitle {
   font-family: "Roboto", Tahoma, sans-serif;
   font-size: 48px;
   font-weight: 400;
   color: inherit;
-  line-height: 50px; }
+  line-height: 50px;
+  margin-bottom: 40px;
+  width: 800px; }
+
+.main__link {
+  display: inline-block;
+  font-family: "Roboto", Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+  padding: 10px;
+  border: 2px solid #367347;
+  border-radius: 15px;
+  background-color: #367347;
+  cursor: pointer; }
+  .main__link:hover {
+    background-color: #0B610B;
+    -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out; }
