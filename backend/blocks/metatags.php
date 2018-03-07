@@ -23,3 +23,4 @@ echo "<title>$titleconst</title>"
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
 <link rel="stylesheet" href="../build/farkopz.css">
+<link rel="stylesheet" href="../src/fa/css/font-awesome.min.css">
