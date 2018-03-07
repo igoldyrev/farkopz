@@ -736,6 +736,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
+  .footer__contacts a {
+    text-decoration: none; }
 
 .footer__social {
   display: -webkit-box;
@@ -744,3 +746,23 @@ body {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 200px; }
+
+.contacts {
+  background-color: #F2F2F2; }
+
+.contacts__inner {
+  width: 1220px;
+  margin: 0 auto;
+  padding: 100px 0; }
+
+.contacts__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px; }
+
+.contacts__text {
+  margin-bottom: 5px; }
