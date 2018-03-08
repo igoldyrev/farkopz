@@ -1,5 +1,6 @@
 @include adaptive(mobile) {
   .form__container {
-    width: 90%;
+    width: 100%;
+    flex-direction: column;
   }
 }

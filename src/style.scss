@@ -70,6 +70,7 @@
 @import "mobile.blocks/form/__container/form__container";
 @import "library.blocks/form/__input/_wrap/form__input_wrap";
 @import "tablet.blocks/form/__input/_wrap/form__input_wrap";
+@import "mobile.blocks/form/__input/_wrap/form__input_wrap";
 @import "library.blocks/form/__input/form__input";
 @import "common.blocks/form/__input/form__input";
 @import "library.blocks/form/__input/_call/form__input_call";
@@ -105,45 +106,60 @@
 
 //Шапка
 @import "common.blocks/header/header";
+@import "mobile.blocks/header/header";
 @import "common.blocks/header/__inner/header__inner";
 @import "tablet.blocks/header/__inner/header__inner";
+@import "mobile.blocks/header/__inner/header__inner";
 @import "common.blocks/header/__logo/header__logo";
 @import "common.blocks/header/__nav/header__nav";
 @import "tablet.blocks/header/__nav/header__nav";
+@import "mobile.blocks/header/__nav/header__nav";
 @import "common.blocks/header/__link/header__link";
+@import "mobile.blocks/header/__link/header__link";
 @import "common.blocks/header/__link/_callback/header__link_callback";
 
 //Main block
 @import "common.blocks/main/main";
 @import "common.blocks/main/__inner/main__inner";
 @import "tablet.blocks/main/__inner/main__inner";
+@import "mobile.blocks/main/__inner/main__inner";
 @import "common.blocks/main/__title/main__title";
 @import "tablet.blocks/main/__title/main__title";
+@import "mobile.blocks/main/__title/main__title";
 @import "common.blocks/main/__subtitle/main__subtitle";
 @import "tablet.blocks/main/__subtitle/main__subtitle";
+@import "mobile.blocks/main/__subtitle/main__subtitle";
 @import "common.blocks/main/__link/main__link";
 @import "common.blocks/main/__link/_montazh/main__link_montazh";
 @import "tablet.blocks/main/__link/_montazh/main__link_montazh";
+@import "mobile.blocks/main/__link/_montazh/main__link_montazh";
 
 //Montazh block
 @import "common.blocks/montazh/__inner/montazh__inner";
 @import "tablet.blocks/montazh/__inner/montazh__inner";
+@import "mobile.blocks/montazh/__inner/montazh__inner";
 @import "common.blocks/montazh/__item/montazh__item";
 @import "tablet.blocks/montazh/__item/montazh__item";
+@import "mobile.blocks/montazh/__item/montazh__item";
 @import "common.blocks/montazh/__item/_wrap/montazh__item_wrap";
 @import "tablet.blocks/montazh/__item/_wrap/montazh__item_wrap";
+@import "mobile.blocks/montazh/__item/_wrap/montazh__item_wrap";
 @import "common.blocks/montazh/__price/montazh__price";
 
 //Form section
 @import "common.blocks/form-section/form-section";
 @import "common.blocks/form-section/__inner/form-section__inner";
 @import "tablet.blocks/form-section/__inner/form-section__inner";
+@import "mobile.blocks/form-section/__inner/form-section__inner";
 @import "common.blocks/form-section/__title/form-section__title";
 @import "tablet.blocks/form-section/__title/form-section__title";
+@import "mobile.blocks/form-section/__title/form-section__title";
 
 //Footer
 @import "common.blocks/footer/__inner/footer__inner";
 @import "tablet.blocks/footer/__inner/footer__inner";
+@import "mobile.blocks/footer/__inner/footer__inner";
+@import "mobile.blocks/footer/__inner/footer__inner";
 @import "common.blocks/footer/__contacts/footer__contacts";
 @import "common.blocks/footer/__social/footer__social";
 
@@ -151,18 +167,26 @@
 @import "common.blocks/contacts/contacts";
 @import "common.blocks/contacts/__inner/contacts__inner";
 @import "tablet.blocks/contacts/__inner/contacts__inner";
+@import "mobile.blocks/contacts/__inner/contacts__inner";
 @import "common.blocks/contacts/__info/contacts__info";
+@import "mobile.blocks/contacts/__info/contacts__info";
 @import "common.blocks/contacts/__text/contacts__text";
+@import "mobile.blocks/contacts/__text/contacts__text";
 
 //Steps
 @import "common.blocks/steps/steps";
 @import "common.blocks/steps/__inner/steps__inner";
 @import "tablet.blocks/steps/__inner/steps__inner";
+@import "mobile.blocks/steps/__inner/steps__inner";
 @import "common.blocks/steps/__title/steps__title";
 @import "tablet.blocks/steps/__title/steps__title";
+@import "mobile.blocks/steps/__title/steps__title";
 @import "common.blocks/steps/__text/steps__text";
 @import "tablet.blocks/steps/__text/steps__text";
+@import "mobile.blocks/steps/__text/steps__text";
 @import "common.blocks/steps/__item/_wrap/steps__item_wrap";
 @import "tablet.blocks/steps/__item/_wrap/steps__item_wrap";
+@import "mobile.blocks/steps/__item/_wrap/steps__item_wrap";
 @import "common.blocks/steps/__item/steps__item";
 @import "tablet.blocks/steps/__item/steps__item";
+@import "mobile.blocks/steps/__item/steps__item";

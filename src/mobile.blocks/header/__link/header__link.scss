@@ -1,0 +1,5 @@
+@include adaptive(mobile) {
+  .header__link {
+    line-height: 30px;
+  }
+}

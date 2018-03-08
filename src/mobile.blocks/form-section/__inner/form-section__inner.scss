@@ -1,0 +1,7 @@
+@include adaptive(mobile) {
+  .form-section__inner {
+    width: 100%;
+    padding: 25px 10px;
+    box-sizing: border-box;
+  }
+}

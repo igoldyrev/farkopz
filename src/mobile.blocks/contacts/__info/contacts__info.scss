@@ -1,0 +1,6 @@
+@include adaptive(mobile) {
+  .contacts__info {
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,6 @@
+@include adaptive(mobile) {
+  .montazh__item-wrap {
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+}

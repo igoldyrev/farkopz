@@ -1,0 +1,14 @@
+.header__link--callback {
+  width: auto;
+  border: 2px solid $redcolor;
+  border-radius: 15px;
+
+   padding: 0 10px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $redcolor;
+    color: #FFFFFF;
+    transition: 0.5s ease-in-out;
+  }
+}

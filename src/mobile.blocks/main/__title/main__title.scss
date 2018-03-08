@@ -1,0 +1,11 @@
+@include adaptive(mobile) {
+  .main__title {
+    font: {
+      size: 1em;
+    }
+    line-height: 30px;
+
+    margin-bottom: 15px;
+    width: 60%;
+  }
+}

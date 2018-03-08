@@ -1,0 +1,5 @@
+@include adaptive(mobile) {
+  .form__input-wrap {
+    margin: 10px 0;
+  }
+}

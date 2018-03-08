@@ -1,0 +1,6 @@
+@include adaptive(mobile) {
+  .steps__item-wrap {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

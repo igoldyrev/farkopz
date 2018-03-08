@@ -1,0 +1,10 @@
+@include adaptive(mobile) {
+  .steps__item {
+    height: auto;
+    margin: 15px 0;
+
+    &:last-child {
+      margin: 15px 0 0;
+    }
+  }
+}
