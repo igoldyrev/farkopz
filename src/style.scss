@@ -114,8 +114,11 @@
 //Main block
 @import "common.blocks/main/main";
 @import "common.blocks/main/__inner/main__inner";
+@import "tablet.blocks/main/__inner/main__inner";
 @import "common.blocks/main/__title/main__title";
+@import "tablet.blocks/main/__title/main__title";
 @import "common.blocks/main/__subtitle/main__subtitle";
+@import "tablet.blocks/main/__subtitle/main__subtitle";
 @import "common.blocks/main/__link/main__link";
 @import "common.blocks/main/__link/_montazh/main__link_montazh";
 
