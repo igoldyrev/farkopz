@@ -66,8 +66,10 @@
 //Поля ввода
 @import "library.blocks/form/__container/form__container";
 @import "common.blocks/form/__container/form__container";
+@import "tablet.blocks/form/__container/form__container";
 @import "mobile.blocks/form/__container/form__container";
 @import "library.blocks/form/__input/_wrap/form__input_wrap";
+@import "tablet.blocks/form/__input/_wrap/form__input_wrap";
 @import "library.blocks/form/__input/form__input";
 @import "common.blocks/form/__input/form__input";
 @import "library.blocks/form/__input/_call/form__input_call";
@@ -135,7 +137,9 @@
 //Form section
 @import "common.blocks/form-section/form-section";
 @import "common.blocks/form-section/__inner/form-section__inner";
+@import "tablet.blocks/form-section/__inner/form-section__inner";
 @import "common.blocks/form-section/__title/form-section__title";
+@import "tablet.blocks/form-section/__title/form-section__title";
 
 //Footer
 @import "common.blocks/footer/__inner/footer__inner";
