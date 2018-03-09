@@ -35,6 +35,7 @@
 
 //Текст, списки и ссылки
 @import "library.blocks/text/text";
+@import "common.blocks/text/_center/text_center";
 @import "tablet.blocks/text/text";
 @import "mobile.blocks/text/text";
 @import "library.blocks/span/span";
@@ -69,6 +70,7 @@
 @import "tablet.blocks/form/__container/form__container";
 @import "mobile.blocks/form/__container/form__container";
 @import "library.blocks/form/__input/_wrap/form__input_wrap";
+@import "common.blocks/form/__input/_wrap/form__input_wrap";
 @import "tablet.blocks/form/__input/_wrap/form__input_wrap";
 @import "mobile.blocks/form/__input/_wrap/form__input_wrap";
 @import "library.blocks/form/__input/form__input";
@@ -190,3 +192,14 @@
 @import "common.blocks/steps/__item/steps__item";
 @import "tablet.blocks/steps/__item/steps__item";
 @import "mobile.blocks/steps/__item/steps__item";
+
+//Callback
+@import "common.blocks/callback/callback";
+@import "tablet.blocks/callback/callback";
+@import "mobile.blocks/callback/callback";
+@import "common.blocks/callback/_active/callback_active";
+@import "common.blocks/callback/__overlay/callback__overlay";
+@import "common.blocks/callback/__overlay/_active/callback__overlay_active";
+@import "common.blocks/callback/__close/callback__close";
+@import "common.blocks/callback/__header/callback__header";
+@import "common.blocks/callback/__body/callback__body";
