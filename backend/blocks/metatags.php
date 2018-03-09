@@ -24,3 +24,4 @@ echo "<title>$titleconst</title>"
 
 <link rel="stylesheet" href="../build/farkopz.css">
 <link rel="stylesheet" href="../src/fa/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
