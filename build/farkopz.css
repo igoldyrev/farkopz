@@ -352,9 +352,10 @@ body {
 .form__input-wrap {
   position: relative; }
 
-.form__input-wrap {
+.form__input-wrap--vertical {
   position: relative;
-  margin: 10px 0; }
+  margin: 10px auto;
+  width: 300px; }
 
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .form__input-wrap {
