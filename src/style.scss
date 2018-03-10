@@ -69,7 +69,7 @@
 
 //Поля ввода
 @import "library.blocks/form/__container/form__container";
-@import "common.blocks/form/__container/form__container";
+@import "common.blocks/form/__container/_flex/form__container_flex";
 @import "tablet.blocks/form/__container/form__container";
 @import "mobile.blocks/form/__container/form__container";
 @import "library.blocks/form/__input/_wrap/form__input_wrap";
@@ -225,3 +225,9 @@
 @import "common.blocks/error/__img/error__img";
 @import "mobile.blocks/error/__img/error__img";
 @import "common.blocks/error/__text/error__text";
+
+//Форма заказа
+@import "common.blocks/zakaz-form/zakaz-form";
+@import "tablet.blocks/zakaz-form/zakaz-form";
+@import "mobile.blocks/zakaz-form/zakaz-form";
+@import "common.blocks/zakaz-form/__close/zakaz-form__close";
