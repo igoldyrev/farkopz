@@ -393,7 +393,7 @@ body {
 .form__input:placeholder-shown + .form__label--shown {
   display: none; }
 
-.form__input {
+.form__input--mini {
   width: 300px;
   border-radius: 15px; }
 
