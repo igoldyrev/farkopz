@@ -19,3 +19,4 @@ RewriteRule ^(.*)$ $1.html
 #Правила для переадресации страниц
 RewriteRule ^zakaz /backend/scripts/zakaz.php
 RewriteRule ^callback /backend/scripts/callback.php
+RewriteRule ^request /backend/scripts/request.php
