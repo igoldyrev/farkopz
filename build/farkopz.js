@@ -70,7 +70,8 @@
 __webpack_require__(1);
 __webpack_require__(2);
 __webpack_require__(3);
-module.exports = __webpack_require__(4);
+__webpack_require__(4);
+module.exports = __webpack_require__(5);
 
 
 /***/ }),
@@ -144,6 +145,20 @@ $(document).ready(function () {
 
 /***/ }),
 /* 4 */
+/***/ (function(module, exports) {
+
+$(function () {
+    $('.main__link').click(function () {
+        $('.zakaz-form').addClass('zakaz-form--active');
+    });
+
+    $('.zakaz-form__close').click(function () {
+        $('.zakaz-form').removeClass('zakaz-form--active');
+    });
+});
+
+/***/ }),
+/* 5 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
