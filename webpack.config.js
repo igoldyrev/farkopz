@@ -18,6 +18,7 @@ module.exports = {
         farkopz: [
             './src/main.js',
             './src/common.blocks/callback/callback.js',
+            './src/common.blocks/header/header.js',
             './src/style.scss'
 
         ],

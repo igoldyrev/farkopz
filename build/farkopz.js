@@ -69,7 +69,8 @@
 
 __webpack_require__(1);
 __webpack_require__(2);
-module.exports = __webpack_require__(3);
+__webpack_require__(3);
+module.exports = __webpack_require__(4);
 
 
 /***/ }),
@@ -118,6 +119,31 @@ $(function () {
 
 /***/ }),
 /* 3 */
+/***/ (function(module, exports) {
+
+$(document).ready(function () {
+    $("a.header__link").click(function () {
+        $("html, body").animate({
+            scrollTop: $($(this).attr("href")).offset().top + "px"
+        }, {
+            duration: 500,
+            easing: "swing"
+        });
+        return false;
+    });
+    $("a.header__top").click(function () {
+        $("html, body").animate({
+            scrollTop: $($(this).attr("href")).offset().top + "px"
+        }, {
+            duration: 500,
+            easing: "swing"
+        });
+        return false;
+    });
+});
+
+/***/ }),
+/* 4 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
