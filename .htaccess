@@ -17,5 +17,5 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html
 
 #Правила для переадресации страниц
-RewriteRule ^zakaz zakaz.php
+RewriteRule ^zakaz /backend/scripts/zakaz.php
 RewriteRule ^callback /backend/scripts/callback.php
