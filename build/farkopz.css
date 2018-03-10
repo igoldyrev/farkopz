@@ -885,6 +885,11 @@ body {
   color: inherit;
   line-height: 24px; }
 
+.montazh__img {
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 250px; }
+
 .form-section {
   background-color: #acecac; }
 
