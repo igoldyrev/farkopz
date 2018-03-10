@@ -1106,11 +1106,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   width: 300px;
-  height: 200px;
+  height: auto;
   text-align: center; }
 
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
@@ -1124,6 +1124,10 @@ body {
     margin: 15px 0; }
     .steps__item:last-child {
       margin: 15px 0 0; } }
+
+.steps__icon {
+  margin-bottom: 15px;
+  color: #367347; }
 
 .callback {
   position: fixed;
