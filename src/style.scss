@@ -9,6 +9,9 @@
 @import "library.blocks/wrapper/wrapper";
 @import "tablet.blocks/wrapper/wrapper";
 @import "mobile.blocks/wrapper/wrapper";
+@import "library.blocks/wrapper/__content/wrapper__content";
+@import "tablet.blocks/wrapper/__content/wrapper__content";
+@import "mobile.blocks/wrapper/__content/wrapper__content";
 
 //Заголовки
 @import "library.blocks/title/title";
@@ -203,3 +206,10 @@
 @import "common.blocks/callback/__close/callback__close";
 @import "common.blocks/callback/__header/callback__header";
 @import "common.blocks/callback/__body/callback__body";
+
+//Сообщение об успешном или неуспешном заказе товара
+@import "common.blocks/good-message/good-message";
+@import "common.blocks/good-message/_wrong/good-message_wrong";
+
+//Обертка для уведомлений форм
+@import "common.blocks/notification-wrap/notification-wrap";
