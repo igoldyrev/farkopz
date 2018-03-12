@@ -1,5 +1,5 @@
 <?php
-$email = "goldirev12@yandex.ru";
+$email = "autobagaz@yandex.ru";
 
 $callback = "
 Имя: ".$name.";
