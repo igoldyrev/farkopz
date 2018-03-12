@@ -1,0 +1,37 @@
+<div class="montazh-form">
+    <div class="montazh-form__close">X</div>
+    <h3 class="title title-h3">Заполните форму ниже и мы свяжемся с Вами в течении нескольких часов</h3>
+    <div class="form__container">
+        <form action="/montazh" method="post" class="form">
+            <span class="form__label">Ваше имя:</span>
+            <div class="form__input-wrap">
+                <input type="text" name="name" required autofocus class="form__input" placeholder="Введите Ваше имя">
+                <label for="name" class="form__label--shown">Введите Ваше имя</label>
+            </div>
+            <span class="form__label">Ваш телефон:</span>
+            <div class="form__input-wrap">
+                <input type="text" name="phone" required class="form__input" placeholder="Введите номер телефона">
+                <label for="phone" class="form__label--shown">Введите номер телефона</label>
+            </div>
+            <span class="form__label">Марка машины:</span>
+            <div class="form__input-wrap">
+                <input type="text" name="auto" class="form__input" placeholder="Введите марку автомобиля">
+                <label for="auto" class="form__label--shown">Введите марку автомобиля</label>
+            </div>
+            <span class="form__label">Если у Вас есть свое оборудование, то вы можете указать это</span>
+            <div class="form__input-wrap clearfix">
+                <input type="checkbox" name="farkop" class="form__checkbox" id="farkop">
+                <label for="farkop" class="form__label--checkbox">У меня есть свой фаркоп</label>
+                <input type="checkbox" name="electrics" class="form__checkbox" id="electrics">
+                <label for="electrics" class="form__label--checkbox">У меня есть своя электрика</label>
+            </div>
+            <span class="form__label">Дополнительная информация:</span>
+            <div class="form__input-wrap">
+                <textarea name="text" class="form__input form__textarea" placeholder="Введите какую-либо дополнительную информацию"></textarea>
+                <label for="text" class="form__label--shown">Введите какую-либо дополнительную информацию</label>
+            </div>
+            <div class="g-recaptcha" data-sitekey="6LenJjcUAAAAALv0jIybM3O45CnsEYa4X58EZ1uH"></div>
+            <button class="button button__zakaz">Записаться на монтаж</button>
+        </form>
+    </div>
+</div>

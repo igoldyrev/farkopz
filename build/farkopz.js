@@ -71,7 +71,8 @@ __webpack_require__(1);
 __webpack_require__(2);
 __webpack_require__(3);
 __webpack_require__(4);
-module.exports = __webpack_require__(5);
+__webpack_require__(5);
+module.exports = __webpack_require__(6);
 
 
 /***/ }),
@@ -159,6 +160,20 @@ $(function () {
 
 /***/ }),
 /* 5 */
+/***/ (function(module, exports) {
+
+$(function () {
+    $('.js-montazh__link').click(function () {
+        $('.montazh-form').addClass('montazh-form--active');
+    });
+
+    $('.montazh-form__close').click(function () {
+        $('.montazh-form').removeClass('montazh-form--active');
+    });
+});
+
+/***/ }),
+/* 6 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin

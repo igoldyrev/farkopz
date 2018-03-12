@@ -20,6 +20,7 @@ module.exports = {
             './src/common.blocks/callback/callback.js',
             './src/common.blocks/header/header.js',
             './src/common.blocks/main/main.js',
+            './src/common.blocks/montazh/montazh.js',
             './src/style.scss'
 
         ],
