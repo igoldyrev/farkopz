@@ -148,7 +148,7 @@ $(document).ready(function () {
 /***/ (function(module, exports) {
 
 $(function () {
-    $('.main__link').click(function () {
+    $('.js-main__link').click(function () {
         $('.zakaz-form').addClass('zakaz-form--active');
     });
 
