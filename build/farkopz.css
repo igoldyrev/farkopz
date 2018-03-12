@@ -445,7 +445,8 @@ body {
   resize: none; }
 
 .form__textarea {
-  padding: 15px; }
+  padding: 15px;
+  height: 85px; }
 
 .form__textarea--admin {
   width: 98%;
