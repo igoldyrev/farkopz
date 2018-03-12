@@ -232,3 +232,10 @@
 @import "tablet.blocks/zakaz-form/zakaz-form";
 @import "mobile.blocks/zakaz-form/zakaz-form";
 @import "common.blocks/zakaz-form/__close/zakaz-form__close";
+
+//Форма монтажа
+@import "common.blocks/montazh-form/montazh-form";
+@import "common.blocks/montazh-form/_active/montazh-form_active";
+@import "tablet.blocks/montazh-form/montazh-form";
+@import "mobile.blocks/montazh-form/montazh-form";
+@import "common.blocks/montazh-form/__close/montazh-form__close";

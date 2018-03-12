@@ -787,7 +787,7 @@ body {
     transition: 0.5s ease-in-out; }
 
 .main__link--montazh {
-  width: 60%;
+  width: 65%;
   margin: 0 auto;
   text-align: center; }
 
@@ -1281,6 +1281,52 @@ body {
   cursor: pointer;
   color: #d9d9d9; }
   .zakaz-form__close:hover {
+    color: #367347;
+    -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out; }
+
+.montazh-form {
+  position: fixed;
+  left: 30%;
+  top: 12%;
+  z-index: 4;
+  display: none;
+  width: 850px;
+  background-color: #FFFFFF;
+  margin-left: -100px;
+  margin-top: -30px;
+  padding: 10px;
+  border: 2px solid #d9d9d9;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.montazh-form--active {
+  display: block; }
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .montazh-form {
+    left: 0%;
+    top: 1%;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0; } }
+
+@media only screen and (max-width: 767px) {
+  .montazh-form {
+    left: 0%;
+    top: 1%;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0; } }
+
+.montazh-form__close {
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+  color: #d9d9d9; }
+  .montazh-form__close:hover {
     color: #367347;
     -webkit-transition: 0.5s ease-in-out;
     -o-transition: 0.5s ease-in-out;
