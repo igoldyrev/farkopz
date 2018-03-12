@@ -1,14 +1,16 @@
+<html lang="ru">
 <?php session_start();
 $titleconst = "Автобагаж - купить фаркоп в Перми";
 echo "<title>$titleconst</title>"
 ?>
-<html lang="ru">
 
 <!-- meta tags -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="robots" content="index,follow">
+<meta name="description" content="Купить фаркоп в Перми на любой автомобиль в наличии и под заказ. Быстро и с гарантией. Пермь, Спешилова 102/29">
+<meta name="keywords" content="фаркопы, купить фаркоп, заказать фаркоп, заказать фаркоп в Перми, монтаж фаркопов, быстрая установка, быстрый монтаж">
 
 <!-- meta property -->
 <meta property="place:location:latitude" content="58.03593904782619">
