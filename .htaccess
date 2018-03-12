@@ -20,3 +20,4 @@ RewriteRule ^(.*)$ $1.html
 RewriteRule ^zakaz /backend/scripts/zakaz.php
 RewriteRule ^callback /backend/scripts/callback.php
 RewriteRule ^request /backend/scripts/request.php
+RewriteRule ^montazh /backend/scripts/montazh.php
