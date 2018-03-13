@@ -1,6 +1,6 @@
 <html lang="ru">
 <?php session_start();
-$titleconst = "Автобагаж - купить фаркоп в Перми";
+$titleconst = "Farkopz.ru - купить фаркоп в Перми";
 echo "<title>$titleconst</title>"
 ?>
 
