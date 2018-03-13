@@ -1,0 +1,11 @@
+@include adaptive(mobile) {
+  .header__inner {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 100%;
+    height: auto;
+
+    box-sizing: border-box;
+  }
+}

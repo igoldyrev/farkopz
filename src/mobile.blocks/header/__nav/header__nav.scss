@@ -1,0 +1,5 @@
+@include adaptive(mobile) {
+  .header__nav {
+    width: 100%;
+  }
+}

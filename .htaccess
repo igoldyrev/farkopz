@@ -1,8 +1,10 @@
-ErrorDocument 403 /403.php
-ErrorDocument 404 /404.php
+ErrorDocument 403 /backend/errors/403.php
+ErrorDocument 404 /backend/errors/404.php
+ErrorDocument 500 /backend/errors/500.php
+
 RewriteEngine On  # Если этой строки нет выше
-RewriteCond %{HTTP:X-Forwarded-Protocol} !=https
-RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+#RewriteCond %{HTTP:X-Forwarded-Protocol} !=https
+#RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
 
 AddType application/x-httpd-php .html .htm
 
@@ -15,4 +17,7 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html
 
 #Правила для переадресации страниц
-RewriteRule ^zakaz zakaz.php
+RewriteRule ^zakaz /backend/scripts/zakaz.php
+RewriteRule ^callback /backend/scripts/callback.php
+RewriteRule ^request /backend/scripts/request.php
+RewriteRule ^montazh /backend/scripts/montazh.php

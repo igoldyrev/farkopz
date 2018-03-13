@@ -1,0 +1,7 @@
+@include adaptive(mobile) {
+  .callback {
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+}

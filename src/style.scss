@@ -1,0 +1,241 @@
+@import "fonts";
+@import "variables";
+@import "mixins";
+
+@import "library.blocks/clearfix/clearfix";
+
+//Тело и обертка
+@import "library.blocks/body/body";
+@import "library.blocks/wrapper/wrapper";
+@import "tablet.blocks/wrapper/wrapper";
+@import "mobile.blocks/wrapper/wrapper";
+@import "library.blocks/wrapper/__content/wrapper__content";
+@import "tablet.blocks/wrapper/__content/wrapper__content";
+@import "mobile.blocks/wrapper/__content/wrapper__content";
+
+//Заголовки
+@import "library.blocks/title/title";
+@import "tablet.blocks/title/title";
+@import "mobile.blocks/title/title";
+@import "library.blocks/title-h1/title-h1";
+@import "tablet.blocks/title-h1/title-h1";
+@import "mobile.blocks/title-h1/title-h1";
+@import "library.blocks/title-h2/title-h2";
+@import "tablet.blocks/title-h2/title-h2";
+@import "mobile.blocks/title-h2/title-h2";
+@import "library.blocks/title-h3/title-h3";
+@import "tablet.blocks/title-h3/title-h3";
+@import "mobile.blocks/title-h3/title-h3";
+@import "library.blocks/title-h4/title-h4";
+@import "tablet.blocks/title-h4/title-h4";
+@import "mobile.blocks/title-h4/title-h4";
+@import "library.blocks/title-h5/title-h5";
+@import "tablet.blocks/title-h5/title-h5";
+@import "mobile.blocks/title-h5/title-h5";
+@import "library.blocks/title-h6/title-h6";
+@import "tablet.blocks/title-h6/title-h6";
+@import "mobile.blocks/title-h6/title-h6";
+
+//Текст, списки и ссылки
+@import "library.blocks/text/text";
+@import "common.blocks/text/_center/text_center";
+@import "tablet.blocks/text/text";
+@import "mobile.blocks/text/text";
+@import "library.blocks/span/span";
+@import "tablet.blocks/span/span";
+@import "mobile.blocks/span/span";
+@import "library.blocks/list/list";
+@import "mobile.blocks/list/list";
+@import "common.blocks/list/__unsorted/list__unsorted";
+@import "library.blocks/list/_decimal/list_decimal";
+@import "common.blocks/list/_decimal/list_decimal";
+@import "library.blocks/link/link";
+@import "common.blocks/link/link";
+@import "library.blocks/link/_green/link_green";
+@import "common.blocks/link-green/link-green";
+@import "mobile.blocks/link-green/link-green";
+
+//Изображения
+@import "library.blocks/img/__wrap/img__wrap";
+@import "library.blocks/img/img";
+@import "library.blocks/img/_gallery/img_gallery";
+
+//Всплывающие изображения
+@import "library.blocks/img/__popup/img__popup";
+@import "library.blocks/img/__inner/img__inner";
+@import "library.blocks/img/__big/img__big";
+@import "mobile.blocks/img/__popup/img__popup";
+@import "mobile.blocks/img/__big/img__big";
+
+//Поля ввода
+@import "library.blocks/form/__container/form__container";
+@import "common.blocks/form/__container/_flex/form__container_flex";
+@import "tablet.blocks/form/__container/form__container";
+@import "mobile.blocks/form/__container/form__container";
+@import "library.blocks/form/__input/_wrap/form__input_wrap";
+@import "common.blocks/form/__input/_wrap/form__input_wrap";
+@import "tablet.blocks/form/__input/_wrap/form__input_wrap";
+@import "mobile.blocks/form/__input/_wrap/form__input_wrap";
+@import "library.blocks/form/__input/form__input";
+@import "common.blocks/form/__input/_mini/form__input_mini";
+@import "library.blocks/form/__input/_call/form__input_call";
+@import "mobile.blocks/form/__input/form__input";
+@import "library.blocks/form/__checkbox/form__checkbox";
+@import "common.blocks/form/__checkbox/form__checkbox";
+@import "library.blocks/form/__select/form__select";
+@import "mobile.blocks/form/__select/form__select";
+@import "library.blocks/form/__textarea/form__textarea";
+@import "common.blocks/form/__textarea/form__textarea";
+@import "common.blocks/form/__textarea/_admin/form__textarea_admin";
+@import "mobile.blocks/form/__textarea/form__textarea";
+@import "library.blocks/form/__label/form__label";
+@import "library.blocks/form/__label/_checkbox/form__label_checkbox";
+@import "library.blocks/form/__label/_shown/form__label_shown";
+@import "library.blocks/form/g-recaptcha";
+
+//Кнопки
+@import "library.blocks/button/button";
+@import "mobile.blocks/button/button";
+@import "common.blocks/button/__buy/button__buy";
+@import "mobile.blocks/button/__buy/button__buy";
+@import "mobile.blocks/button/_cell/button_cell";
+@import "common.blocks/button/__buy/_prokat/button__buy_prokat";
+@import "common.blocks/button/__about/button__about";
+@import "mobile.blocks/button/__about/button__about";
+@import "common.blocks/button/__zakaz/button__zakaz";
+@import "mobile.blocks/button/__zakaz/button__zakaz";
+@import "common.blocks/button/__zakaz/_prokat/button__zakaz_prokat";
+@import "common.blocks/button/__zakaz/_help/button__zakaz_help";
+@import "common.blocks/button/__zakaz/_call/button__zakaz_call";
+@import "mobile.blocks/button/__zakaz/_call/button__zakaz_call";
+
+//Шапка
+@import "common.blocks/header/header";
+@import "mobile.blocks/header/header";
+@import "common.blocks/header/__inner/header__inner";
+@import "tablet.blocks/header/__inner/header__inner";
+@import "mobile.blocks/header/__inner/header__inner";
+@import "common.blocks/header/__logo/header__logo";
+@import "common.blocks/header/__nav/header__nav";
+@import "tablet.blocks/header/__nav/header__nav";
+@import "mobile.blocks/header/__nav/header__nav";
+@import "common.blocks/header/__link/header__link";
+@import "mobile.blocks/header/__link/header__link";
+@import "common.blocks/header/__link/_callback/header__link_callback";
+
+//Main block
+@import "common.blocks/main/main";
+@import "common.blocks/main/__inner/main__inner";
+@import "tablet.blocks/main/__inner/main__inner";
+@import "mobile.blocks/main/__inner/main__inner";
+@import "common.blocks/main/__title/main__title";
+@import "tablet.blocks/main/__title/main__title";
+@import "mobile.blocks/main/__title/main__title";
+@import "common.blocks/main/__subtitle/main__subtitle";
+@import "tablet.blocks/main/__subtitle/main__subtitle";
+@import "mobile.blocks/main/__subtitle/main__subtitle";
+@import "common.blocks/main/__link/main__link";
+@import "common.blocks/main/__link/_montazh/main__link_montazh";
+@import "tablet.blocks/main/__link/_montazh/main__link_montazh";
+@import "mobile.blocks/main/__link/_montazh/main__link_montazh";
+
+//Montazh block
+@import "common.blocks/montazh/__inner/montazh__inner";
+@import "tablet.blocks/montazh/__inner/montazh__inner";
+@import "mobile.blocks/montazh/__inner/montazh__inner";
+@import "common.blocks/montazh/__item/montazh__item";
+@import "tablet.blocks/montazh/__item/montazh__item";
+@import "mobile.blocks/montazh/__item/montazh__item";
+@import "common.blocks/montazh/__item/_wrap/montazh__item_wrap";
+@import "tablet.blocks/montazh/__item/_wrap/montazh__item_wrap";
+@import "mobile.blocks/montazh/__item/_wrap/montazh__item_wrap";
+@import "common.blocks/montazh/__price/montazh__price";
+@import "common.blocks/montazh/__img/montazh__img";
+
+//Form section
+@import "common.blocks/form-section/form-section";
+@import "common.blocks/form-section/__inner/form-section__inner";
+@import "tablet.blocks/form-section/__inner/form-section__inner";
+@import "mobile.blocks/form-section/__inner/form-section__inner";
+@import "common.blocks/form-section/__title/form-section__title";
+@import "tablet.blocks/form-section/__title/form-section__title";
+@import "mobile.blocks/form-section/__title/form-section__title";
+
+//Footer
+@import "common.blocks/footer/__inner/footer__inner";
+@import "tablet.blocks/footer/__inner/footer__inner";
+@import "mobile.blocks/footer/__inner/footer__inner";
+@import "mobile.blocks/footer/__inner/footer__inner";
+@import "common.blocks/footer/__contacts/footer__contacts";
+@import "common.blocks/footer/__social/footer__social";
+
+//Contacts
+@import "common.blocks/contacts/contacts";
+@import "common.blocks/contacts/__inner/contacts__inner";
+@import "tablet.blocks/contacts/__inner/contacts__inner";
+@import "mobile.blocks/contacts/__inner/contacts__inner";
+@import "common.blocks/contacts/__info/contacts__info";
+@import "mobile.blocks/contacts/__info/contacts__info";
+@import "common.blocks/contacts/__text/contacts__text";
+@import "mobile.blocks/contacts/__text/contacts__text";
+
+//Steps
+@import "common.blocks/steps/steps";
+@import "common.blocks/steps/__inner/steps__inner";
+@import "tablet.blocks/steps/__inner/steps__inner";
+@import "mobile.blocks/steps/__inner/steps__inner";
+@import "common.blocks/steps/__title/steps__title";
+@import "tablet.blocks/steps/__title/steps__title";
+@import "mobile.blocks/steps/__title/steps__title";
+@import "common.blocks/steps/__text/steps__text";
+@import "tablet.blocks/steps/__text/steps__text";
+@import "mobile.blocks/steps/__text/steps__text";
+@import "common.blocks/steps/__item/_wrap/steps__item_wrap";
+@import "tablet.blocks/steps/__item/_wrap/steps__item_wrap";
+@import "mobile.blocks/steps/__item/_wrap/steps__item_wrap";
+@import "common.blocks/steps/__item/steps__item";
+@import "tablet.blocks/steps/__item/steps__item";
+@import "mobile.blocks/steps/__item/steps__item";
+@import "common.blocks/steps/__icon/steps__icon";
+
+//Callback
+@import "common.blocks/callback/callback";
+@import "tablet.blocks/callback/callback";
+@import "mobile.blocks/callback/callback";
+@import "common.blocks/callback/_active/callback_active";
+@import "common.blocks/callback/__overlay/callback__overlay";
+@import "common.blocks/callback/__overlay/_active/callback__overlay_active";
+@import "common.blocks/callback/__close/callback__close";
+@import "common.blocks/callback/__header/callback__header";
+@import "common.blocks/callback/__body/callback__body";
+
+//Сообщение об успешном или неуспешном заказе товара
+@import "common.blocks/good-message/good-message";
+@import "common.blocks/good-message/_wrong/good-message_wrong";
+
+//Обертка для уведомлений форм
+@import "common.blocks/notification-wrap/notification-wrap";
+
+//Страницы с ошибками
+@import "common.blocks/error/error";
+@import "mobile.blocks/error/error";
+@import "common.blocks/error/__link-wrap/error__link-wrap";
+@import "mobile.blocks/error/__link-wrap/error__link-wrap";
+@import "common.blocks/error/__link/error__link";
+@import "common.blocks/error/__img/error__img";
+@import "mobile.blocks/error/__img/error__img";
+@import "common.blocks/error/__text/error__text";
+
+//Форма заказа
+@import "common.blocks/zakaz-form/zakaz-form";
+@import "common.blocks/zakaz-form/_active/zakaz-form_active";
+@import "tablet.blocks/zakaz-form/zakaz-form";
+@import "mobile.blocks/zakaz-form/zakaz-form";
+@import "common.blocks/zakaz-form/__close/zakaz-form__close";
+
+//Форма монтажа
+@import "common.blocks/montazh-form/montazh-form";
+@import "common.blocks/montazh-form/_active/montazh-form_active";
+@import "tablet.blocks/montazh-form/montazh-form";
+@import "mobile.blocks/montazh-form/montazh-form";
+@import "common.blocks/montazh-form/__close/montazh-form__close";

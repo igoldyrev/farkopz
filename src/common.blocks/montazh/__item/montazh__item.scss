@@ -1,0 +1,15 @@
+.montazh__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+
+  width: 350px;
+
+  border-right: 1px solid $mediumgray;
+  padding-right: 30px;
+
+  &:last-child {
+    border-right: none;
+  }
+}

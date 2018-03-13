@@ -1,0 +1,7 @@
+@include adaptive(pad) {
+  .main__inner {
+    width: 100%;
+    padding: 50px 15px;
+    box-sizing: border-box;
+  }
+}

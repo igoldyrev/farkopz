@@ -1,13 +1,9 @@
 User-Agent: *
 Allow: /
-Disallow: /404.php
-Disallow: /403.php
-Disallow: /frames/counters.html
-Disallow: /frames/footer.html
-Disallow: /frames/header.html
-Disallow: /frames/headtags.php
-Disallow: /frames/leftmenu.html
-Disallow: /zakaz.php
+Disallow: /backend
+Disallow: /build
+Disallow: /src
 Disallow: /googlea56fc622b0027217.html
+Disallow: /yandex_7b6e10234db79617.html
 Sitemap: https://farkopz.ru/sitemap.xml
 Host: https://farkopz.ru

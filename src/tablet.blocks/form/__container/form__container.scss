@@ -1,0 +1,6 @@
+@include adaptive(pad) {
+  .form__container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,6 @@
+@include adaptive(mobile) {
+  .contacts__text {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+}

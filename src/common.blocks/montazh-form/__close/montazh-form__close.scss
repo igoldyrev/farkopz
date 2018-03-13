@@ -1,0 +1,11 @@
+.montazh-form__close {
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+  color: $mediumgray;
+
+  &:hover {
+    color: $subcolor;
+    transition: 0.5s ease-in-out;
+  }
+}
